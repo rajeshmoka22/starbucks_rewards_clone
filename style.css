@@ -212,6 +212,7 @@ ul {
   background: #008248;
   color: white;
   border: none;
+  cursor: pointer;
 }
 
 .getting-started, .endless-extras {

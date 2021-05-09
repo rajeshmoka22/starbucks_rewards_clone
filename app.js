@@ -36,3 +36,21 @@ menu.addEventListener('click', () => {
   })
   document.querySelector('.menu').classList.toggle('menu-hidden');
 })
+
+function signin() {
+  const anchor = document.createElement('a');
+  anchor.href = 'https://www.starbucks.com/account/signin';
+  anchor.target = '_blank';
+  document.body.appendChild(anchor);
+  anchor.click();
+  document.body.removeChild(anchor);
+}
+
+function join() {
+  const anchor = document.createElement('a');
+  anchor.href = 'https://www.starbucks.com/account/create';
+  anchor.target = '_blank';
+  document.body.appendChild(anchor);
+  anchor.click();
+  document.body.removeChild(anchor);
+}
