@@ -354,7 +354,8 @@ ul {
   .menubar {
     height: 1px;
     width: 24px;
-    border: 1px solid black;
+    border: 1px solid #000;
+    background-color: #000;
     margin: 6px;
     transition: all 0.3s ease-in-out;
   }
@@ -428,5 +429,13 @@ ul {
 
   .endless-title {
     padding: 0 5%;
+  }
+
+  .justify-start{
+    justify-content: flex-start;
+  }
+
+  header {
+    margin-top: 5.6rem;
   }
 }
