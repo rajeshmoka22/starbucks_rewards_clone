@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.margin_tb_1{
+  margin: 1rem 0;
+}
+
+.padding_t3{
+  padding-top: 3rem;
+}
+
+.padding_t1{
+  padding-top: 1rem;
+}
+
+.show{
+  display: '';
+}
+
+.hidden {
+  display: none !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.margin_lr_auto{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+body {
+  font-family: Cabin, sans-serif;
+  line-height: 1.5;
+  overflow-x: hidden;
+  min-height: 85vh;
+  min-width: 100vw;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index:3;
+  background: #fff;
+}
+
+.nav-group{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-right: 1.5rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.nav-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.menu li{
+  margin: 0 0.5rem;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.flex-shrink-none {
+  flex-shrink: 0;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.right-menu {
+  display: flex;
+  align-items: center;
+}
+
+.right *{
+  margin:0 0.5rem;
+}
+
+.link {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+}
+
+.link:hover, .find-store:hover {
+  color:#008248;
+}
+
+.active {
+  border-bottom: 3px solid #008248;
+}
+
+.btn {
+  height: auto;
+  border-radius: 2rem;
+  border: 1px solid black;
+  padding: 6px 16px;
+  font-family: Cabin, sans-serif;
+  font-weight: bold;
+}
+
+.join-now{
+  background: #000;
+  color: #fff;
+}
+
+.find-store {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sign-in:hover{
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.join-now:hover{
+  cursor: pointer;
+  background:#242424;
+}
+
+.main-content {
+  height:100%;
+  margin-top:6rem;
+}
+
+.sub-heading{
+  background: #1e3932;
+  color: white;
+  padding: 0.7rem;
+  padding-left: 7%;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size:0.9rem;
+  letter-spacing: 1.5px;
+}
+
+.image-container {
+  position:relative;
+}
+
+.starImage {
+  background-image: url("/images/xl-hero-desktop.webp");
+  /* background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  max-width:100%;
+  max-height:100%;
+  position:relative; */
+  background-color: rgb(212, 233, 226);
+  height: 50%;
+  width: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 620px;
+  width: 100vw;
+}
+
+.star-content {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+
+.bigText {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.star-join-now {
+  background: #008248;
+  color: white;
+  border: none;
+}
+
+.getting-started, .endless-extras {
+  padding: 4rem 1.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 2rem 0;
+  flex-grow: 1;
+}
+
+.steps .step {
+  padding: 1.5rem;
+}
+
+.endless-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.margin-top1{
+  margin-top: 1rem;
+}
+
+.margin-bottom-half {
+  margin-bottom: .5rem;
+}
+
+.step-description {
+  padding: 0.5rem 0;
+}
+
+.step-number {
+  border: 1px solid #008248;
+  border-radius: 50%;
+  height: 60px;
+  width:60px;
+  color: #008248;
+}
+
+.tab {
+  border: none;
+  background-color: inherit;
+  padding: 1rem 1.5rem;
+  font-family: Cabin, sans-serif;
+}
+
+.tab:hover {
+  color:#008248;
+}
+
+.tabs .active {
+  border-bottom: 3px solid #008248;
+  transition: border 0.1s ease-out;
+}
+
+.tab span {
+  padding-left: 0.2rem;
+  color: #cba258!important;
+}
+
+.favorites-tab {
+  background-color: rgba(212,233,226,.33)!important;
+}
+
+.favorite-content {
+  padding: 0.5rem 1rem;
+  background-color: #d4e9e2;
+}
+
+.tab-content img {
+  height: 35%;
+  width: 45%;
+}
+
+.tab-description {
+  max-width: 400px;
+  padding: 0 1rem;
+}
+
+.endless-title {
+  padding: 0 20%;
+}
+
+@media only screen and (max-width:850px) {
+  header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .menu-hidden {
+    display: none !important;
+    transition: all 1s ease-in-out;
+  }
+
+  .menu {
+    position:absolute;
+    top: 85px;
+    background: #fff;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    z-index: 4;
+    box-shadow: -1px 6px 10px -2px grey;
+  }
+  .menu li{
+    display: block;
+    border: none;
+    padding-left: 1rem;
+  }
+
+  .right-menu {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+
+  .right{
+    margin-left: 0;
+    padding: 1rem 0rem;
+  }
+
+  .join-buttons {
+    padding: 1rem 0;
+  }
+
+  .find-store{
+    padding: 8px 0;
+  }
+
+  .menubar {
+    height: 1px;
+    width: 24px;
+    border: 1px solid black;
+    margin: 6px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu-bars {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+
+  .rotate45 {
+    transform: rotate(45deg) translateY(5px);
+  }
+  .rotate-45 {
+    transform: rotate(-45deg) translateY(-5px);
+  }
+
+  .star-content{
+    top: 25%;
+    left: 5%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .starImage {
+    background-image: url(images/hero-mobile.webp);
+    background-color: rgb(212, 233, 226);
+    position:relative;
+    height: 600px;
+    width: 106vw;
+    margin:0;
+  }
+
+  .star-content{
+    top: 10%;
+    left: 20%;
+  }
+
+  .steps {
+    flex-wrap:wrap;
+  }
+
+  .main-content {
+    width: 106vw;
+  }
+
+  .tabs {
+    overflow-x: scroll;
+  }
+
+  .tab-content {
+    flex-direction: column;
+  }
+
+  .tab-content img {
+    height: 60%;
+    width: 70%;
+  }
+
+  .getting-started{
+    padding: 2rem 1.5rem;
+  }
+
+  .nav-group {
+    padding-left: 1.5rem;
+  }
+
+  .menu-bars {
+    top: 25px;
+  }
+
+  .endless-title {
+    padding: 0 5%;
+  }
+}
