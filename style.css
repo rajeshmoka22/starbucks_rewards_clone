@@ -435,7 +435,7 @@ ul {
     justify-content: flex-start;
   }
 
-  header {
+  .main-content {
     margin-top: 5.6rem;
   }
 }
