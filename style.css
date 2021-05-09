@@ -383,7 +383,7 @@ ul {
     background-color: rgb(212, 233, 226);
     position:relative;
     height: 600px;
-    width: 106vw;
+    width: 100vw;
     margin:0;
   }
 
@@ -397,7 +397,7 @@ ul {
   }
 
   .main-content {
-    width: 106vw;
+    width: 100vw;
   }
 
   .tabs {
