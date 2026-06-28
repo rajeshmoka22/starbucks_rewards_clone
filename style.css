@@ -51,9 +51,17 @@ body {
   min-width: 100vw;
 }
 
+.announcement-section {
+  text-align: center;
+  background-color: #0f0f0f;
+  color: #fff;
+  padding: 1rem;
+  z-index: 4;
+}
+
 header{
   position: fixed;
-  top: 0;
+  top: 0px;
   left: 0;
   width: 100%;
   z-index:3;
@@ -62,8 +70,14 @@ header{
 }
 
 .nav-group{
+  position: relative;
   padding-left: 4rem;
   padding-right: 4rem;
+}
+
+.contact-link {
+  color:#f2f2f2;
+  text-decoration: underline;
 }
 
 .logo {
@@ -306,7 +320,7 @@ ul {
 }
 
 @media only screen and (max-width:850px) {
-  header {
+  .nav-bar {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
@@ -318,7 +332,7 @@ ul {
 
   .menu {
     position:absolute;
-    top: 85px;
+    top: 72px;
     background: #fff;
     right: 0;
     flex-direction: column;
@@ -363,7 +377,7 @@ ul {
   .menu-bars {
     position: absolute;
     right: 1rem;
-    top: 1rem;
+    top: 0.5rem;
   }
 
   .rotate45 {
@@ -424,7 +438,7 @@ ul {
   }
 
   .menu-bars {
-    top: 25px;
+    top: 0.5rem;
   }
 
   .endless-title {
@@ -436,6 +450,6 @@ ul {
   }
 
   .main-content {
-    margin-top: 5.6rem;
+    margin-top: 12.5rem;
   }
 }
